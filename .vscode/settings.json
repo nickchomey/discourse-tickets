@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/_layouts": true,
+        "**/.obsidian": true,
+        "**/.tours": true,
+        "**/.vscode": true,
+        "**/Recycle Bin": true,
+        "**/assets": false
+    },
+    "explorerExclude.backup": null
+}
