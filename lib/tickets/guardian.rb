@@ -1,6 +1,7 @@
 module TicketsGuardian
   def can_create_ticket?(topic)
-    is_staff? && SiteSetting.tickets_enabled
+    #is_staff? && SiteSetting.tickets_enabled
+    SiteSetting.tickets_enabled
   end
 end
 
