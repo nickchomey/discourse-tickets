@@ -4,7 +4,7 @@ Tickets::Tag::GROUPS.each do |tag_group_name|
       name: tag_group_name,
       one_per_topic: true,
       permissions: {
-        staff: 1
+        staff: 1,
         docs: 1
       }
     )
