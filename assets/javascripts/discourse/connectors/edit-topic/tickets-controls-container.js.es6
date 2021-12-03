@@ -5,7 +5,7 @@ export default {
     const user = component.currentUser;
     const enabled = this.siteSettings.tickets_enabled;
     /* component.set('showTopicTicket', user.staff && enabled); */
-    component.set('showTopicTicket', user.staff && enabled);
+    component.set('showTopicTicket', enabled);
 
     scheduleOnce('afterRender', () => {
       $('.tickets-controls-container').parent().addClass('tickets-controls-container-outlet');
